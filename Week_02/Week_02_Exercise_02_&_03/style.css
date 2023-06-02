@@ -1,0 +1,22 @@
+.main_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10px;
+}
+
+.csym019{
+    width:40%;
+    border-radius: 20px;
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+h1, h2, p{
+    font-family: cursive;
+}

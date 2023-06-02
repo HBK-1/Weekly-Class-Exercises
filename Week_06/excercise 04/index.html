@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 4</title>
+	<link rel="stylesheet" href="index.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Country Populations</h1>
+	</header>
+
+	<nav>
+		<a class="active" href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+
+	<div class="container">
+		<div style="text-align: center;">
+			<button onclick="changeStyle('pie')">Pie</button>
+			<button onclick="changeStyle('bar')">Bar</button>
+		</div>
+		<canvas id="myChart"></canvas>
+		<div style="text-align: center;">
+			<button onclick="yearsAgo(10)" id="tenYearsAgo">10 Years Ago</button>
+			<button onclick="yearsAgo(20)" id="twentyYearsAgo">20 Years Ago</button>
+			<button onclick="yearsAgo(30)" id="thirtyYearsAgo">30 Years Ago</button>
+		</div>
+	</div>
+
+	<footer class="text-align:center">
+		<p>&copy; 2023 Chart.js Example</p>
+	</footer>
+	<script src="index.js"></script>
+</body>
+</html>

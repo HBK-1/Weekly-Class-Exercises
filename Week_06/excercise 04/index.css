@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    border: 1px solid #f3ff165c;
+    border-radius: 10px;
+    background-color: #e8f1105e;
+    min-width: 92px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#myChart {
+    max-width: 600px;
+    margin: 20px auto;
+}

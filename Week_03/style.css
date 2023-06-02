@@ -1,0 +1,89 @@
+section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    margin-bottom: 30px;
+}
+
+.a {
+    grid-template-areas: "header header header"
+        "nav nav nav"
+        "main main aside"
+        "footer footer footer";
+}
+
+.b {
+    grid-template-areas: "header header header"
+        "nav main main"
+        "footer footer footer";
+}
+
+.c {
+
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header"
+        "nav nav  nav nav"
+        "main main aside aside "
+        "footer footer footer footer";
+}
+
+.d {
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header nav nav"
+        "main main main aside "
+        "footer footer footer footer";
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+
+}
+
+nav {
+
+    background-color: yellow;
+    grid-area: nav;
+
+}
+
+main {
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+
+}
+
+aside {
+    background-color: lightgreen;
+    grid-area: aside;
+
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+
+}
+
+.c-grid-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.c-grid {
+    display: flex;
+    gap: 20rem;
+}
+
+.d-grid {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}

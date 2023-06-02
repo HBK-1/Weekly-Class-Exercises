@@ -1,0 +1,44 @@
+{
+    "sightings": [
+      {
+        "id": 1,
+        "animal": "Red Panda",
+        "number": 2,
+        "location":"Toronto Canada",
+        "date": "2023-05-07",
+        "time": "15:30:00",
+        "observer": {
+          "name": "John Doe",
+          "email": "johndoe@example.com"
+        },
+        "observations": "Saw the red pandas climbing trees and eating bamboo."
+      },
+      {
+        "id": 2,
+        "animal": "owl",
+        "number": 5,
+        "location":"Islamabad Pakistan",
+        "date": "2023-05-07",
+        "time": "15:30:00",
+        "observer": {
+          "name": "Johnny smith",
+          "email": "Johnny@example.com"
+        },
+        "observations": "Saw the Owl resting on the tree."
+      },
+      {
+        "id": 3,
+        "animal": "Snow Leopard",
+        "number": 1,
+        "location":"London United Kingdom",
+        "date": "2023-05-08",
+        "time": "10:15:00",
+        "observer": {
+          "name": "Jane Smith",
+          "email": "janesmith@example.com"
+        },
+        "observations": "Saw the snow leopard resting on a rock in the sun."
+      }
+    ]
+  }
+  
